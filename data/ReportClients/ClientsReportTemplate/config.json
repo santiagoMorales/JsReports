@@ -1,0 +1,23 @@
+{
+    "shortid": "SJz-Z1Axw",
+    "name": "ClientsReportTemplate",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1595957684548
+    },
+    "modificationDate": {
+        "$$date": 1596644141855
+    },
+    "_id": "rVAgNAkpm4jfLuLZ",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "B1TOa0agw"
+    },
+    "htmlToXlsx": {
+        "htmlEngine": "chrome"
+    }
+}

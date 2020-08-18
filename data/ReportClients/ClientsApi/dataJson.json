@@ -1,0 +1,48 @@
+{
+     "client": [{
+        "id": 1,
+        "name": "arca continental SA.DE.CV",
+        "shortname": "Cocacola",
+        "rfc": "acs124323he1",
+        "classification": "bronce",
+        "direccionFiscal": "juan escutia #233 loma alta cp:120",
+        "color": "verde"
+        },
+        {
+        "id": 1,
+        "name": "arca continental",
+        "shortname": "Cocacola",
+        "rfc": "acs124323he1",
+        "classification": "bronce",
+        "direccionFiscal": "juan escutia #233 loma alta cp:120",
+        "color": "rojo"
+        },
+        {
+        "id": 1,
+        "name": "arca continental",
+        "shortname": "Cocacola",
+        "rfc": "acs124323he1",
+        "classification": "bronce",
+        "direccionFiscal": "juan escutia #233 loma alta cp:120",
+        "color": "negro"
+        },
+        {
+        "id": 1,
+        "name": "arca continental",
+        "shortname": "Cocacola",
+        "rfc": "acs124323he1",
+        "classification": "bronce",
+        "direccionFiscal": "juan escutia #233 loma alta cp:120",
+        "color": "blanco"
+        },
+        {
+        "id": 1,
+        "name": "arca continental",
+        "shortname": "Cocacola",
+        "rfc": "acs124323he1",
+        "classification": "bronce",
+        "direccionFiscal": "juan escutia #233 loma alta cp:120",
+        "color": "amarillo"
+        }
+    ]
+}

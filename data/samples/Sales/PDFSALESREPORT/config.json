@@ -1,0 +1,23 @@
+{
+  "shortid": "SJxxIVsVev",
+  "name": "PDFSALESREPORT",
+  "recipe": "chrome-pdf",
+  "engine": "handlebars",
+  "chrome": {
+    "printBackground": true
+  },
+  "creationDate": {
+    "$$date": 1595352152266
+  },
+  "modificationDate": {
+    "$$date": 1595877727581
+  },
+  "_id": "GJ1HGEPWgJ9FInQI",
+  "$entitySet": "templates",
+  "data": {
+    "shortid": "B1lSTrt6NB"
+  },
+  "htmlToXlsx": {
+    "htmlEngine": "chrome"
+  }
+}

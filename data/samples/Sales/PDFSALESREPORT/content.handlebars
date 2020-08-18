@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset sales-styles.css @encoding=utf8}
+        </style>
+       
+    </head>
+    <body>
+        <h1>tabla de productos y precios</h1>
+        <div class="container">
+        <h3>vendedor : {{customer}}</h3>
+        <p class="fecha">21/07/2020</p>
+       </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>FECHA</th>
+                    <th>producto</th>
+                    <th>categoria</th>
+                    <th>precio</th>
+                    <th>cantidad</th>
+                    <th>descuento </th>
+                </tr>
+            </thead>
+           
+            <tbody>
+                 {{#each detail}}
+                  <tr >
+                    <td>{{date}}</td>
+                    <td>{{product}}</td>
+                    <td>{{category}}</td>
+                    <td>{{unitPrice}}</td>
+                    <td>{{quantity}}</td>
+                    <td>{{discountPercentage}}%</td>
+                </tr>
+                {{/each}}
+                
+            </tbody>
+            
+        </table>
+    </body>
+</html>

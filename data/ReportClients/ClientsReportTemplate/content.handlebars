@@ -1,0 +1,68 @@
+
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset reportClient-styles.css @encoding=utf8}
+        </style> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+       
+    </head>
+    <body>
+       <header>
+            <div class="columns ">
+            <div class="column is-4">
+                <div class="image" >
+                <img src="{#asset Header.png @encoding=dataURI}" alt="TecMontajes"  />
+                </div >
+            </div>
+            <div class="column is-6" style="padding-left: 0px;">
+                <h1 class="title is-3 titulo">reporte de clientes</h1>
+            </div>
+            <div class="column generalDat">
+                <p style="has-text-centered">
+                Blvd. Gustavo Díaz Ordaz No. 2C1 
+                <br>Col. Loma Linda</br>
+                Ramos Arizpe, Coahuila, México C.P. 25900
+               <br> Teléfonos +52 (844) 488 0095 / 488 5295</br>
+                </p>  
+            </div>
+            </div>
+      </header>
+        
+        <div class="container">
+        <p class="fecha subtitle is-5"><span class="dia">al dia:</span> 28/07/2020</p>
+       </div>
+        <table class="table is-bordered is-striped is-narrow is-hoverable">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Nombre</th>
+                    <th>nombre corto</th>
+                    <th>Rfc</th>
+                    <th>clasificacion</th>
+                    <th>direccion fiscal</th>
+                    <th>status</th>
+                </tr>
+            </thead>
+           
+            <tbody>
+                 {{#each client}}
+                  <tr >
+                    <td>{{id}}</td>
+                    <td>{{name}}</td>
+                    <td>{{shortname}}</td>
+                    <td>{{rfc}}</td>
+                    <td>{{classification}}</td>
+                    <td>{{direccionFiscal}}</td>
+                    <td><div class={{color}}></div></td>
+                </tr>
+                {{/each}}
+                
+            </tbody>
+            
+        </table>
+    </body>
+</html>
