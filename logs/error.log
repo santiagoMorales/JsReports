@@ -715,3 +715,30 @@ TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/trou
     at Timeout._onTimeout (C:\Users\Santiago Morales\Desktop\JsReport\jsreportapp\node_modules\jsreport-fs-store\lib\transaction.js:10:11)
     at listOnTimeout (internal/timers.js:549:17)
     at processTimers (internal/timers.js:492:7)
+2020-08-18T23:54:43.969Z - error: Rendering request 2 finished with error in 11 ms
+2020-08-18T23:54:43.970Z - error: Error when processing render request 2 Asset quotation-styles.css not found in the store and also not on the disk: Unable to find or read file C:\Users\PC_TOM\Desktop\JsReports\quotation-styles.css. ENOENT: no such file or directory, open 'C:\Users\PC_TOM\Desktop\JsReports\quotation-styles.css' Error: Asset quotation-styles.css not found in the store and also not on the disk: Unable to find or read file C:\Users\PC_TOM\Desktop\JsReports\quotation-styles.css. ENOENT: no such file or directory, open 'C:\Users\PC_TOM\Desktop\JsReports\quotation-styles.css'
+    at readAsset (C:\Users\PC_TOM\Desktop\JsReports\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-08-18T23:54:43.971Z - error: Error during processing request at http://localhost:8001/api/report/Qoutation
+2020-08-18T23:55:03.312Z - error: Rendering request 3 finished with error in 7 ms
+2020-08-18T23:55:03.313Z - error: Error when processing render request 3 Asset quotation-styles.css not found in the store and also not on the disk: Unable to find or read file C:\Users\PC_TOM\Desktop\JsReports\quotation-styles.css. ENOENT: no such file or directory, open 'C:\Users\PC_TOM\Desktop\JsReports\quotation-styles.css' Error: Asset quotation-styles.css not found in the store and also not on the disk: Unable to find or read file C:\Users\PC_TOM\Desktop\JsReports\quotation-styles.css. ENOENT: no such file or directory, open 'C:\Users\PC_TOM\Desktop\JsReports\quotation-styles.css'
+    at readAsset (C:\Users\PC_TOM\Desktop\JsReports\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-08-18T23:55:03.314Z - error: Error during processing request at http://localhost:8001/api/report/Qoutation
+2020-09-08T17:09:58.518Z - error: Error during processing request at http://localhost:8001/api/validate-import?fullImport=false&targetFolder=Byj2FKm, details: Error: end of central directory record signature not found
+    at C:\Users\PC_TOM\Desktop\JsReports\node_modules\yauzl\index.js:187:14
+    at C:\Users\PC_TOM\Desktop\JsReports\node_modules\yauzl\index.js:631:5
+    at C:\Users\PC_TOM\Desktop\JsReports\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:477:5)
+2020-09-08T17:11:02.512Z - error: Error during processing request at http://localhost:8001/api/validate-import?fullImport=true&targetFolder=Byj2FKm, details: Error: end of central directory record signature not found
+    at C:\Users\PC_TOM\Desktop\JsReports\node_modules\yauzl\index.js:187:14
+    at C:\Users\PC_TOM\Desktop\JsReports\node_modules\yauzl\index.js:631:5
+    at C:\Users\PC_TOM\Desktop\JsReports\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:477:5)
+2020-09-08T17:11:11.306Z - error: Error during processing request at http://localhost:8001/api/validate-import?fullImport=false&targetFolder=Byj2FKm, details: Error: end of central directory record signature not found
+    at C:\Users\PC_TOM\Desktop\JsReports\node_modules\yauzl\index.js:187:14
+    at C:\Users\PC_TOM\Desktop\JsReports\node_modules\yauzl\index.js:631:5
+    at C:\Users\PC_TOM\Desktop\JsReports\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:477:5)
+2020-09-08T17:22:09.739Z - error: Rendering request 3 finished with error in 10 ms
+2020-09-08T17:22:09.740Z - error: Error when processing render request 3 Asset reportQuotationTecno-styles.css not found in the store and also not on the disk: Unable to find or read file C:\Users\PC_TOM\Desktop\JsReports\reportQuotationTecno-styles.css. ENOENT: no such file or directory, open 'C:\Users\PC_TOM\Desktop\JsReports\reportQuotationTecno-styles.css' Error: Asset reportQuotationTecno-styles.css not found in the store and also not on the disk: Unable to find or read file C:\Users\PC_TOM\Desktop\JsReports\reportQuotationTecno-styles.css. ENOENT: no such file or directory, open 'C:\Users\PC_TOM\Desktop\JsReports\reportQuotationTecno-styles.css'
+    at readAsset (C:\Users\PC_TOM\Desktop\JsReports\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-08T17:22:09.741Z - error: Error during processing request at http://localhost:8001/api/report/QoutationTecnoTemplate

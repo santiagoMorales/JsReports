@@ -1,0 +1,67 @@
+body{
+    border: 1px solid rgb(217, 236, 204) !important;
+    padding: 10px !important;
+    text-transform: uppercase;
+}
+.image{
+    width: 250px;
+    height: 100px;
+    display: block;
+   
+}
+.generalDat{
+    padding-top: 40px !important;
+     text-align: center !important;
+     font-size: 12px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: 700;
+     padding-right: 85px !important;
+    
+}
+.telefonos {
+    color: #005e2e;
+    font-size: 13px;
+}
+.nunQouteCol{
+     text-align: center !important;
+     font-size: 10px;
+     position: absolute;
+     top: 35px;
+     right: 40px;
+}
+.numQuot{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    
+}
+.tableInfoQuote{
+    font-size: 12px;
+}
+.folioHead{
+    width: 130px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.tablaInfo{
+    display: block;
+    margin: 30px 30px 10px 30px;
+    height: 100px;
+}
+.datos{
+    font-weight: 700;
+    color: #000;
+    font-size: 12px;
+}
+.quoteName{
+    font-weight: 700;
+    color: #000;
+    font-size: 16px;
+}
+
+.quoteNameDiv{
+    display: block;
+    width: 100%;
+    border: 1px solid #005e2e;
+}

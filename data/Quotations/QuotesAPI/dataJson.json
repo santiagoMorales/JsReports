@@ -1,0 +1,14 @@
+{
+     "quote": [{
+        "id": 1,
+        "client": "Leon Plastics ",
+        "address": "Carretera antigua arteaga  ",
+        "date": "04/09/2020",
+        "buyer": "sergio Becerril",
+        "emailBuyer": "Sbecerril@motusintegrated.com",
+        "celphone": "8441234567",
+        "telephone": "8441256322",
+        "rfq" : "012903"
+        }
+     ]
+}

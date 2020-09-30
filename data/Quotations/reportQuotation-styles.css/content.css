@@ -1,0 +1,54 @@
+body{
+    border: 1px solid rgb(217, 236, 204) !important;
+    padding: 10px !important;
+    text-transform: uppercase;
+}
+.image{
+    width: 250px;
+    height: 100px;
+    display: block;
+   
+}
+.generalDat{
+    //padding-top: 50px !important;
+     text-align: center !important;
+     font-size: 12px;
+     position: absolute;
+     top: 10px;
+     right: 10px;
+}
+
+.numQuot{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    
+}
+.tableInfoQuote{
+    font-size: 12px;
+}
+
+.folioHead{
+    width: 130px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.tablaInfo{
+    display: block;
+    margin: 5px 30px 10px 30px;
+    height: 100px;
+}
+.datos{
+    font-weight: 700;
+    color: #000;
+    font-size: 12px;
+}
+.quoteName{
+    font-weight: 700;
+    color: #000;
+    font-size: 13px;
+}
+.tamanoCol{
+    max-width: 400px !important ;
+}

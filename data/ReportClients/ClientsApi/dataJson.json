@@ -44,5 +44,10 @@
         "direccionFiscal": "juan escutia #233 loma alta cp:120",
         "color": "amarillo"
         }
+    ],
+    "fecha":[
+        {
+            "date":"20/09/1010"
+        }
     ]
 }

@@ -1,0 +1,17 @@
+{
+    "shortid": "BJlyEd3tMv",
+    "name": "QoutationMeeinTemplate",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1597782467113
+    },
+    "modificationDate": {
+        "$$date": 1599595884444
+    },
+    "_id": "KGBpZKpFyHs76hIN",
+    "$entitySet": "templates"
+}

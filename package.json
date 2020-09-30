@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "jsreport": "^2.9.0",
+    "jsreport-html-embedded-in-docx": "^2.2.0",
     "jsreport-html-to-xlsx": "^2.7.0"
   }
 }

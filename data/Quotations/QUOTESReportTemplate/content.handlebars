@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset reportQuotationTecno-styles.css @encoding=utf8}
+        </style> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+       
+    </head>
+    <body>
+       <header>
+          
+          <div class="columns "> 
+            <div class="column is-4">
+                <div class="image" >
+                <img src="{#asset Tecno.png @encoding=dataURI}" alt="Meiin"  />
+                </div >
+            </div>
+            <div class="column is-6 generalDat" >
+                <p class="telefonos"> +52 (844) 488 0695  / +52 (844) 488 5295</p><br/>            
+                <p class="has-text-centered">
+                Blvd. Gustavo Díaz Ordaz No. 201 Col. Loma Linda<br/>
+                Ramos Arizpe, Coahuila, México C.P. 25900
+                </p>
+            </div>
+            <div class="column nunQouteCol">
+               <div class="numQuot">
+                    <table class="table is-bordered is-striped is-narrow  folio "  >
+                        <thead>
+                            <tr>
+                                <th class="folioHead">
+                                    Folio No.
+                                </th>
+                                <tbody>
+                                     {{#each quote}}
+                                    <tr>
+                                        <td>
+                                            TM-{{id}}
+                                        </td>
+                                    </tr>
+                                    {{/each}}
+                                </tbody>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            </div>
+      </header>
+        <div class="tablaInfo" >
+            <table class="table is-bordered is-striped is-narrow is-fullwidth tableInfoQuote" >
+                <tbody>
+                    {{#each quote}}
+                    <tr>
+                        <td style="width: 370px;">
+                           <span class="datos">Cliente:</span> {{client}}
+                         </td>
+                        <td>
+                           <span class="datos">fecha:</span>
+                           {{date}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                           <span class="datos">direccion:</span>
+                           {{address}}
+                        </td>
+                        <td>
+                            <span class="datos" data-cell-type="number">referencia:</span>
+                            {{rfq}}
+                        </td>
+                    </tr>
+                    <tr> 
+                        <td > 
+                             ramos Arizpe Coah, 25900, Mexico
+                        </td>
+                        <td  >
+                            <span class="datos">atencion:</span>
+                            {{buyer}} 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td ><span class="datos">tel:</span> 
+                       {{telephone}}
+                        <span class="datos">Cel:</span> 
+                        {{celphone}}
+                        </td>
+                        <td><span class="datos">E-mail:</span> <a>{{emailBuyer}}</a></td>
+                    </tr>
+                     {{/each}}
+                </tbody>
+            </table>
+            <div class="quoteNameDiv">
+                <p class="has-text-centered quoteName">
+                  cotizacion
+                </p>       
+            </div>
+        </div>    
+    </body>
+</html>

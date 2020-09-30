@@ -1,21 +1,21 @@
 {
-    "shortid": "SJz-Z1Axw",
-    "name": "clientsReportTemplate",
+    "shortid": "HyeB4OEH4v",
+    "name": "QUOTESReportTemplate",
     "recipe": "chrome-pdf",
     "engine": "handlebars",
     "chrome": {
         "printBackground": true
     },
     "creationDate": {
-        "$$date": 1595957684548
+        "$$date": 1599584750530
     },
     "modificationDate": {
-        "$$date": 1600118607627
+        "$$date": 1601491329088
     },
-    "_id": "rVAgNAkpm4jfLuLZ",
+    "_id": "opqHxSTvO9TkaaRM",
     "$entitySet": "templates",
     "data": {
-        "shortid": "B1TOa0agw"
+        "shortid": "r1lhvmPSVw"
     },
     "htmlToXlsx": {
         "htmlEngine": "chrome"

@@ -15,7 +15,7 @@
             <div class="columns ">
             <div class="column is-4">
                 <div class="image" >
-                <img src="{#asset Header.png @encoding=dataURI}" alt="TecMontajes"  />
+                <img src={{company.logo}} alt="TecMontajes"  />
                 </div >
             </div>
             <div class="column is-6" style="padding-left: 0px;">
@@ -33,7 +33,9 @@
       </header>
         
         <div class="container">
-        <p class="fecha subtitle is-5"><span class="dia">al dia:</span> 28/07/2020</p>
+            
+        <p class="fecha subtitle is-5"><span class="dia">al dia:
+            </span>{{date}}</p>
        </div>
         <table class="table is-bordered is-striped is-narrow is-hoverable">
             <thead>
@@ -49,11 +51,11 @@
             </thead>
            
             <tbody>
-                 {{#each client}}
+                 {{#each clients}}
                   <tr >
                     <td>{{id}}</td>
                     <td>{{name}}</td>
-                    <td>{{shortname}}</td>
+                    <td>{{short_name}}</td>
                     <td>{{rfc}}</td>
                     <td>{{classification}}</td>
                     <td>{{direccionFiscal}}</td>

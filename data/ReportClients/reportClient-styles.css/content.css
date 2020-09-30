@@ -20,8 +20,8 @@ th{
     text-align: center !important;
 }
 .image{
-    width: 250px;
-    height: 100px;
+    width: 150px;
+    height:100px !important;
     display: block;
 }
 td{
