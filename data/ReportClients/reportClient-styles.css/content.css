@@ -3,6 +3,33 @@ body{
     padding: 10px !important;
     text-transform: uppercase;
 }
+.user-report {
+    color: #555;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    margin: 10px;
+    padding: 10px;
+}
+.info {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .user-report table tr.top table td {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .user-report table tr.information table td {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
 table{
     font-size: 12px !important;
 }
@@ -19,16 +46,15 @@ tbody{
 th{
     text-align: center !important;
 }
+.data{
+     text-align: center !important;
+}
 .image{
     width: 150px;
     height:100px !important;
     display: block;
 }
-td{
-    text-align: center !important;
-}
 .generalDat{
-    //padding-top: 50px !important;
      text-align: center !important;
      font-size: 10px;
      position: absolute;

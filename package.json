@@ -9,7 +9,9 @@
     "entryPoint": "server.js"
   },
   "dependencies": {
+    "i": "^0.3.6",
     "jsreport": "^2.9.0",
+    "jsreport-browser-client-dist": "^1.3.0",
     "jsreport-html-embedded-in-docx": "^2.2.0",
     "jsreport-html-to-xlsx": "^2.7.0"
   }

@@ -1,0 +1,20 @@
+{
+    "name": "providersReportTemplate",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1603394596604
+    },
+    "modificationDate": {
+        "$$date": 1604601319628
+    },
+    "data": {
+        "shortid": "ZIfrGCMZzl"
+    },
+    "shortid": "fZZkO6k",
+    "_id": "vyDgTY2JQWdOgnYM",
+    "$entitySet": "templates"
+}

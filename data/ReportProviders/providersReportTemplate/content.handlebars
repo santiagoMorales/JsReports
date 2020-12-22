@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+      <style>
+            {#asset  Supplier-Report-styles.css @encoding=utf8}
+      </style>
+    <title>Informe de proveedores</title>
+    </head>
+ <body>
+     
+    <div class="user-report ">
+        <div class="columns">
+            <div class="column is-2">
+               <img class="image"src="{#asset Supplier-Tecno-Logo.png @encoding=dataURI}"  style="width:200%; max-width:300px;" />
+            </div>
+            <div class="column info is-8">
+                <p class="block1"><b>TECNO MONTAJES</b></p>
+                <p class="block"><b>INFORME DE PROVEEDORES</b></p>
+            </div>
+            <div class="column info is-2"></div>
+        </div>
+         <div class="container">
+        <p class="fecha subtitle is-5"><span class="dia">al dia:
+            </span>{{date}}</p>
+       </div>
+        <table class="table is-bordered is-fullwidth">
+            <thead>
+                <tr class="text">
+                    <td class="visible"> NO.</td>
+                    <td>RAZON SOCIAL</td>
+                    <td>RFC</td>
+                    <td>CLAS</td>
+                    <td>FORMA DE PAGO</td>
+                    <td>D. CRED</td>
+                    <td>BANCO</td>
+                    <td>CUENTA / CLABE</td>
+                    <td style=" min-width:120px">DIRECCION</td>
+                    <td>SUCURSAL</td>                           
+                    <td style=" min-width:40px">CAL </td>
+                    <td>ESTATUS</td>
+                </tr>
+            </thead>
+            <tbody>
+            {{#each providers}}
+                <tr>
+                    <td>{{id}}</td>
+                    <td>
+                        <ul>
+                            <li>
+                                {{business_name}}
+                            </li>
+                            <br></br>
+                            <li>
+                                <b>{{name}}</b>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>{{rfc}}</td>
+                    <td>{{classification}}</td>
+                    <td>{{payment_method}}</td>
+                    <td>{{credit_days}}</td>
+                    <td>
+                        <ul>
+                        {{#each banks}}
+                        <div class="lineBank">
+                            <li>
+                                {{bank}}
+                            </li>
+                         </div>
+                        {{/each}}
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            {{#each banks}}
+                            <div class="line">
+                                <li>
+                                    <b>cuenta:</b> {{account}}
+                                </li>
+                                <li>
+                                    <b>clabe:</b> {{clabe}}
+                                </li>
+                                <li>
+                                    <b>moneda:</b> {{currency}}
+                                </li>
+                            </div>
+                            {{/each}}
+                        </ul>
+                    </td>
+                   
+                    <td>
+                         {{address_street}} {{address_outdoor_number}} 
+                        {{address_colonia}}  {{address_city}}  {{address_state}} {{address_country}}
+                    </td>
+                    <td>{{address_state}}</td>
+                    <td>{{score}}</td>
+                    <td style="text-align: center">
+                        <div class="verde"></div>
+                    </td>
+                </tr>
+             {{/each}}
+            </tbody>
+        </table>
+     </div>
+    </body>
+</html>
